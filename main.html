@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="id" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengumuman Kelulusan SMPN 200 Jakarta</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+html,body{margin:0;padding:0;height:100%;width:100%}
+*{box-sizing:border-box}
+:root{--bg:#e8f4fd;--surface:#ffffff;--text:#1a3a5c;--primary:#2b7de9;--secondary:#64b5f6}
+body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--text)}
+.font-display{font-family:'Playfair Display',serif}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse-glow{0%,100%{box-shadow:0 0 20px rgba(43,125,233,0.3)}50%{box-shadow:0 0 40px rgba(43,125,233,0.6)}}
+@keyframes confetti-fall{0%{transform:translateY(-100%) rotate(0deg);opacity:1}100%{transform:translateY(800%) rotate(720deg);opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.anim-fade{animation:fadeUp .7s ease both}
+.anim-d1{animation-delay:.1s}.anim-d2{animation-delay:.2s}.anim-d3{animation-delay:.3s}.anim-d4{animation-delay:.4s}.anim-d5{animation-delay:.5s}
+.float-anim{animation:float 3s ease-in-out infinite}
+.countdown-box{background:linear-gradient(135deg,var(--primary),#1a5cb5);border-radius:16px;padding:8px 16px;min-width:80px;text-align:center;color:#fff}
+.countdown-box .num{font-size:2rem;font-weight:800;line-height:1.2}
+.countdown-box .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;opacity:.85}
+.btn-primary{background:linear-gradient(135deg,var(--primary),#1a5cb5);color:#fff;border:none;padding:16px 40px;border-radius:14px;font-size:1.1rem;font-weight:700;cursor:pointer;transition:all .3s;font-family:'Plus Jakarta Sans',sans-serif}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(43,125,233,0.4)}
+.input-field{width:100%;padding:16px 20px;border:2px solid #d0e3f5;border-radius:14px;font-size:1.05rem;font-family:'Plus Jakarta Sans',sans-serif;transition:all .3s;background:#f8fbff;outline:none}
+.input-field:focus{border-color:var(--primary);box-shadow:0 0 0 4px rgba(43,125,233,0.15);background:#fff}
+.result-card{background:#fff;border-radius:20px;padding:32px;box-shadow:0 10px 60px rgba(43,125,233,0.12);border:2px solid #d0e3f5}
+.badge-lulus{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff;padding:8px 24px;border-radius:50px;font-weight:700;display:inline-block;font-size:1.1rem}
+.confetti-piece{position:fixed;width:10px;height:10px;top:-20px;animation:confetti-fall 3s linear forwards;z-index:9999;pointer-events:none}
+.logo-circle{width:120px;height:120px;border-radius:50%;background:linear-gradient(135deg,var(--primary),#1a5cb5);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 8px 30px rgba(43,125,233,0.25)}
+.logo-circle svg{width:70px;height:70px}
+.toast{position:fixed;top:20px;left:50%;transform:translateX(-50%) translateY(-100px);padding:16px 28px;border-radius:14px;font-weight:600;z-index:10000;transition:transform .4s ease;max-width:90%;text-align:center}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.toast-error{background:#fee2e2;color:#dc2626;border:2px solid #fca5a5}
+.toast-warning{background:#fef3c7;color:#b45309;border:2px solid #fcd34d}
+.admin-table{width:100%;border-collapse:separate;border-spacing:0;border-radius:14px;overflow:hidden}
+.admin-table th{background:linear-gradient(135deg,var(--primary),#1a5cb5);color:#fff;padding:14px 16px;font-weight:600;text-align:left;font-size:.85rem}
+.admin-table td{padding:12px 16px;border-bottom:1px solid #e8f0fa;font-size:.85rem}
+.admin-table tr:last-child td{border-bottom:none}
+.admin-table tr:nth-child(even){background:#f0f7ff}
+.admin-table tr:hover td{background:#e0eeff}
+.wave-divider{position:relative;height:60px;overflow:hidden}
+.wave-divider svg{position:absolute;bottom:0;width:100%}
+</style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app" class="w-full h-full overflow-auto" style="background:var(--bg)"><!-- TOAST -->
+   <div id="toast" class="toast"></div><!-- PAGE: HOME -->
+   <div id="page-home" class="w-full"><!-- Hero -->
+    <div style="background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)" class="w-full">
+     <div class="max-w-3xl mx-auto px-4 pt-12 pb-6 text-center">
+      <div class="anim-fade">
+       <div class="logo-circle">
+
+  <img 
+    src="logo.jpg"
+    alt="Logo SMP Negeri 200 Jakarta"
+    class="school-logo"
+  >
+
+</div>
+
+      </div>
+      <h1 id="hero-title" class="font-display text-2xl md:text-4xl font-800 leading-tight anim-fade anim-d1" style="color:var(--text)">Pengumuman Kelulusan Siswa<br>
+       SMP Negeri 200 Jakarta<br>
+       Tahun Ajaran 2025/2026</h1>
+      <div class="w-16 h-1 mx-auto my-6 rounded-full anim-fade anim-d2" style="background:var(--primary)"></div>
+     </div>
+    </div><!-- Countdown -->
+    <div class="max-w-3xl mx-auto px-4 pb-8">
+     <div id="countdown-section" class="anim-fade anim-d3 text-center">
+      <p class="font-display text-lg font-600 mb-4" style="color:var(--primary)">⏳ Hitung Mundur Menuju Pengumuman</p>
+      <div id="countdown-display" class="flex justify-center gap-3 flex-wrap"></div>
+      <p class="mt-3 text-sm opacity-70">Senin, 4 Mei 2026 • Pukul 18.00 WIB</p>
+     </div>
+    </div><!-- Sambutan -->
+    <div class="max-w-3xl mx-auto px-4 pb-8">
+     <div class="anim-fade anim-d4" style="background:#fff;border-radius:20px;padding:28px 32px;box-shadow:0 4px 30px rgba(43,125,233,0.08);border:1px solid #d8e8f8">
+      <h2 class="font-display text-xl font-700 mb-4 flex items-center gap-2" style="color:var(--primary)"><i data-lucide="message-circle" style="width:22px;height:22px"></i> <span id="sambutan-heading">Sambutan Kepala Sekolah</span></h2>
+      <p id="sambutan-text" class="leading-relaxed text-justify" style="color:#334e6b;font-size:.95rem">Assalamu'alaikum Warahmatullahi Wabarakatuh,<br><br>
+       Puji dan syukur kita panjatkan kehadirat Allah SWT atas segala limpahan rahmat dan karunia-Nya. Pada kesempatan yang membahagiakan ini, kami menyampaikan selamat kepada seluruh peserta didik kelas IX SMP Negeri 200 Jakarta Tahun Ajaran 2025/2026 yang telah menyelesaikan pendidikan di jenjang Sekolah Menengah Pertama.<br><br>
+       Kelulusan ini merupakan hasil dari kerja keras, ketekunan, dan dedikasi kalian selama menempuh pendidikan. Kami berharap ilmu yang telah diperoleh dapat menjadi bekal yang bermanfaat dalam melanjutkan pendidikan ke jenjang berikutnya.<br><br>
+       Kepada seluruh orang tua dan wali murid, kami mengucapkan terima kasih atas dukungan dan kerja sama yang telah diberikan selama ini. Semoga anak-anak kita semua dapat meraih cita-cita dan menjadi generasi penerus bangsa yang berakhlak mulia, cerdas, dan berdaya saing.<br><br>
+       Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+      <p id="principal-name-display" class="mt-4 font-700 text-right" style="color:var(--primary)">Lala Isum</p>
+      <p class="text-right text-sm opacity-60">Kepala SMP Negeri 200 Jakarta</p>
+     </div>
+    </div><!-- CTA -->
+    <div class="max-w-3xl mx-auto px-4 pb-16 text-center anim-fade anim-d5"><button onclick="showPage('check')" class="btn-primary" style="animation:pulse-glow 2s ease-in-out infinite;font-size:1.15rem;padding:18px 48px"> <span class="flex items-center gap-3 justify-center"><i data-lucide="search" style="width:22px;height:22px"></i> Cek Kelulusan Sekarang</span> </button>
+     <p class="mt-3 text-sm opacity-50">Masukkan NISN untuk melihat hasil kelulusan</p>
+    </div>
+   </div><!-- PAGE: CHECK -->
+   <div id="page-check" class="w-full hidden">
+    <div style="background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)" class="w-full">
+     <div class="max-w-2xl mx-auto px-4 pt-8 pb-4"><button onclick="showPage('home')" class="flex items-center gap-2 text-sm font-600 mb-6" style="color:var(--primary);background:none;border:none;cursor:pointer;font-family:'Plus Jakarta Sans',sans-serif"> <i data-lucide="arrow-left" style="width:18px;height:18px"></i> Kembali ke Beranda </button>
+      <div class="text-center">
+       <div class="logo-circle">
+
+  <img 
+    src="logo.jpg"
+    alt="Logo SMP Negeri 200 Jakarta"
+    class="school-logo"
+  >
+
+</div>
+
+       <h2 class="font-display text-2xl font-700 mb-2" style="color:var(--text)">Cek Kelulusan</h2>
+       <p class="text-sm opacity-60 mb-6">Masukkan NISN Anda</p>
+      </div>
+     </div>
+    </div>
+    <div class="max-w-2xl mx-auto px-4 pb-16">
+     <form id="check-form" onsubmit="handleCheck(event)" class="mb-8">
+      <div class="flex gap-3 flex-col sm:flex-row"><input id="nisn-input" type="text" class="input-field flex-1" placeholder="Masukkan NISN" autocomplete="off"> <button type="submit" class="btn-primary" style="white-space:nowrap;padding:16px 32px"> <span class="flex items-center gap-2 justify-center"><i data-lucide="search" style="width:18px;height:18px"></i> Cari</span> </button>
+      </div>
+      <p class="mt-2 text-xs opacity-50">Contoh: 0093818396</p>
+     </form>
+     <div id="result-area"></div>
+    </div>
+   </div>
+  </div>
+  <script>
+const STUDENTS=[
+{name:"ABDUL AZIS VALENTINO S. L.",nisn:"0093818396",status:"LULUS",rank:1},
+{name:"ALICIA ZEGA",nisn:"3108807658",status:"LULUS",rank:2},
+{name:"ALIM AHMAD NUFAIL",nisn:"0118223319",status:"LULUS",rank:3},
+{name:"ANAN PIANSYAH",nisn:"0108898802",status:"LULUS",rank:4},
+{name:"CARISSA ILEYANA FIRMANSYAH",nisn:"0119978792",status:"LULUS",rank:5},
+{name:"CHAYRAL PUTRI YOANOVA",nisn:"0108252066",status:"LULUS",rank:6},
+{name:"DANANG ROBIANSYAH",nisn:"3104176049",status:"LULUS",rank:7},
+{name:"DEFI ALICYA PUTRI",nisn:"0104899887",status:"LULUS",rank:8},
+{name:"FAHRI HAFIZ",nisn:"0107414828",status:"LULUS",rank:9},
+{name:"FANI PANDINI",nisn:"3103623901",status:"LULUS",rank:10},
+{name:"FEBBY AGNIA PRAMESTY",nisn:"3092438546",status:"LULUS",rank:11},
+{name:"GOGON MUDANA",nisn:"0104190162",status:"LULUS",rank:12},
+{name:"HARYO OBBIE PRAMANTYO",nisn:"0102634364",status:"LULUS",rank:13},
+{name:"HERAWATI",nisn:"0105104452",status:"LULUS",rank:14},
+{name:"ILHAM SAPUTRA",nisn:"3108210489",status:"LULUS",rank:15},
+{name:"KAFFA RIZKI MAULANA",nisn:"0107765404",status:"LULUS",rank:16},
+{name:"LINTANG TITIAN KURNIAWAN",nisn:"0102254207",status:"LULUS",rank:17},
+{name:"MUHAMMAD AL - FACHRIZI",nisn:"0095635732",status:"LULUS",rank:18},
+{name:"MUHAMMAD AYDIN AKMAL YUSUP",nisn:"3103026928",status:"LULUS",rank:19},
+{name:"MUHAMMAD FAIZ FEBRIYANTO",nisn:"0092418239",status:"LULUS",rank:20},
+{name:"MUHAMMAD FATIH",nisn:"0105556639",status:"LULUS",rank:21},
+{name:"NAQIYA SALIHA RAFANAYA",nisn:"0101488553",status:"LULUS",rank:22},
+{name:"NAYLA PUTRI AMELIA",nisn:"0103652038",status:"LULUS",rank:23},
+{name:"NIQUITA VALENCIA",nisn:"0114708974",status:"LULUS",rank:24},
+{name:"RAMA ANUGRAH SETIAWAN",nisn:"0112257334",status:"LULUS",rank:25},
+{name:"RIFA'AH AZ ZURQY KURNIAWAN",nisn:"3112976494",status:"LULUS",rank:26},
+{name:"RIZKI NUR PADILAH",nisn:"3094051364",status:"LULUS",rank:27},
+{name:"ROLAND SULLIVAN SUPIT",nisn:"0108459794",status:"LULUS",rank:28},
+{name:"SALSABILA RAMADHANI",nisn:"0098870373",status:"LULUS",rank:29},
+{name:"SELENA PUTRI BALQIS",nisn:"0094111841",status:"LULUS",rank:30},
+{name:"SITI HUMAIROH",nisn:"3105470978",status:"LULUS",rank:31},
+{name:"TRIATMAJA WIJAYA HUTAMA",nisn:"0115086862",status:"LULUS",rank:32},
+{name:"UMMU ASILA",nisn:"3102935138",status:"LULUS",rank:33},
+{name:"VERONICA PUTRI HESSY",nisn:"0104363320",status:"LULUS",rank:34},
+{name:"ZAHIRRA NADIA PRATIWI",nisn:"3118963622",status:"LULUS",rank:35}
+];
+
+// Announcement date: May 4, 2026 18:00 WIB (UTC+7)
+const ANNOUNCE_DATE=new Date(Date.UTC(2026,4,4,11,0,0)); // 18:00 WIB = 11:00 UTC
+
+function isAnnouncementOpen(){return new Date()>=ANNOUNCE_DATE}
+
+function showPage(p){
+document.getElementById('page-home').classList.toggle('hidden',p!=='home');
+document.getElementById('page-check').classList.toggle('hidden',p!=='check');
+if(p==='check'){document.getElementById('nisn-input').focus();document.getElementById('result-area').innerHTML=''}
+window.scrollTo(0,0);
+}
+
+function showToast(msg,type='error'){
+const t=document.getElementById('toast');
+t.className='toast toast-'+type;
+t.textContent=msg;
+t.classList.add('show');
+setTimeout(()=>t.classList.remove('show'),4000);
+}
+
+function handleCheck(e){
+e.preventDefault();
+const val=document.getElementById('nisn-input').value.trim();
+if(!val)return;
+const area=document.getElementById('result-area');
+
+// ADMIN mode - show all
+if(val.toUpperCase()==='ADMIN'){
+area.innerHTML=renderAdminTable(STUDENTS);
+return;
+}
+
+// ADMIN [NISN] mode
+if(val.toUpperCase().startsWith('ADMIN ')){
+const nisn=val.substring(6).trim();
+const s=STUDENTS.find(x=>x.nisn===nisn);
+if(!s){showToast('NISN tidak ditemukan. Harap cek kembali NISN Anda.','error');area.innerHTML=renderNotFound();return}
+area.innerHTML=renderStudentResult(s);
+spawnConfetti();
+return;
+}
+
+// Normal check
+if(!isAnnouncementOpen()){
+showToast('Pengumuman kelulusan belum dimulai. Harap cek sesuai waktu yang telah ditentukan (4 Mei 2026, pukul 18.00 WIB).','warning');
+area.innerHTML=renderNotYet();
+return;
+}
+
+const s=STUDENTS.find(x=>x.nisn===val);
+if(!s){showToast('NISN tidak ditemukan. Harap cek kembali NISN Anda.','error');area.innerHTML=renderNotFound();return}
+area.innerHTML=renderStudentResult(s);
+spawnConfetti();
+}
+
+function renderNotFound(){
+return `<div class="result-card text-center" style="border-color:#fca5a5">
+<div style="width:64px;height:64px;border-radius:50%;background:#fee2e2;margin:0 auto 16px;display:flex;align-items:center;justify-content:center">
+<i data-lucide="x-circle" style="width:32px;height:32px;color:#dc2626"></i>
+</div>
+<h3 class="font-display text-xl font-700" style="color:#dc2626">NISN Tidak Ditemukan</h3>
+<p class="mt-2 opacity-70" style="font-size:.9rem">Harap cek kembali NISN Anda. Pastikan NISN yang dimasukkan sudah benar dan terdaftar sebagai siswa SMP Negeri 200 Jakarta.</p>
+</div>`;
+}
+
+function renderNotYet(){
+return `<div class="result-card text-center" style="border-color:#fcd34d">
+<div style="width:64px;height:64px;border-radius:50%;background:#fef3c7;margin:0 auto 16px;display:flex;align-items:center;justify-content:center">
+<i data-lucide="clock" style="width:32px;height:32px;color:#b45309"></i>
+</div>
+<h3 class="font-display text-xl font-700" style="color:#b45309">Pengumuman Belum Dibuka</h3>
+<p class="mt-2 opacity-70" style="font-size:.9rem">Pengumuman kelulusan belum dimulai. Harap cek kembali pada:<br><strong>Senin, 4 Mei 2026 pukul 18.00 WIB</strong></p>
+</div>`;
+}
+
+function renderStudentResult(s){
+setTimeout(()=>{lucide.createIcons()},10);
+return `<div class="result-card text-center" style="animation:fadeUp .5s ease both">
+<div style="width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#22c55e,#16a34a);margin:0 auto 16px;display:flex;align-items:center;justify-content:center">
+<i data-lucide="check-circle" style="width:36px;height:36px;color:#fff"></i>
+</div>
+<div class="badge-lulus mb-4">🎓 ${s.status}</div>
+<h3 class="font-display text-2xl font-800 mt-3" style="color:var(--text)">${s.name}</h3>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;text-align:left">
+<div style="background:#f0f7ff;padding:14px 18px;border-radius:12px"><span style="font-size:.75rem;opacity:.6;display:block">NISN</span><strong>${s.nisn}</strong></div>
+<div style="background:#f0f7ff;padding:14px 18px;border-radius:12px"><span style="font-size:.75rem;opacity:.6;display:block">Status</span><strong style="color:#16a34a">${s.status}</strong></div>
+<div style="background:#f0f7ff;padding:14px 18px;border-radius:12px"><span style="font-size:.75rem;opacity:.6;display:block">Peringkat Angkatan</span><strong>${s.rank} dari ${STUDENTS.length}</strong></div>
+<div style="background:#f0f7ff;padding:14px 18px;border-radius:12px"><span style="font-size:.75rem;opacity:.6;display:block">Tahun Ajaran</span><strong>2025/2026</strong></div>
+</div>
+<button onclick="downloadCertificate('${s.name}','${s.nisn}',${s.rank})" class="btn-primary mt-6 w-full" style="animation:none">
+<span class="flex items-center gap-2 justify-center"><i data-lucide="download" style="width:18px;height:18px"></i> Unduh Sertifikat Kelulusan</span>
+</button>
+</div>`;
+}
+
+function renderAdminTable(data){
+setTimeout(()=>{lucide.createIcons()},10);
+let rows=data.map((s,i)=>`<tr>
+<td class="font-600">${i+1}</td>
+<td>${s.name}</td>
+<td>${s.nisn}</td>
+<td><span style="background:#dcfce7;color:#16a34a;padding:4px 12px;border-radius:50px;font-weight:600;font-size:.8rem">${s.status}</span></td>
+<td class="font-600">${s.rank}</td>
+</tr>`).join('');
+return `<div style="animation:fadeUp .5s ease both">
+<div class="flex items-center gap-2 mb-4" style="color:var(--primary)"><i data-lucide="shield" style="width:20px;height:20px"></i><span class="font-700">Mode Admin — Seluruh Data Siswa</span></div>
+<div style="overflow-x:auto;border-radius:14px;border:1px solid #d8e8f8">
+<table class="admin-table"><thead><tr><th>No</th><th>Nama Siswa</th><th>NISN</th><th>Keterangan</th><th>Peringkat</th></tr></thead><tbody>${rows}</tbody></table>
+</div>
+<p class="mt-3 text-sm opacity-50 text-center">Total: ${data.length} siswa</p>
+</div>`;
+}
+
+function downloadCertificate(name,nisn,rank){
+const c=document.createElement('canvas');c.width=1200;c.height=850;
+const ctx=c.getContext('2d');
+// Background
+const grad=ctx.createLinearGradient(0,0,1200,850);
+grad.addColorStop(0,'#e8f4fd');grad.addColorStop(1,'#ffffff');
+ctx.fillStyle=grad;ctx.fillRect(0,0,1200,850);
+// Border
+ctx.strokeStyle='#2b7de9';ctx.lineWidth=6;ctx.strokeRect(30,30,1140,790);
+ctx.strokeStyle='#64b5f6';ctx.lineWidth=2;ctx.strokeRect(45,45,1110,760);
+// Header
+ctx.fillStyle='#1a3a5c';ctx.font='bold 18px serif';ctx.textAlign='center';
+ctx.fillText('SMP NEGERI 200 JAKARTA',600,100);
+ctx.font='bold 36px serif';ctx.fillStyle='#2b7de9';
+ctx.fillText('SURAT KETERANGAN KELULUSAN',600,155);
+ctx.fillStyle='#1a3a5c';ctx.font='16px sans-serif';
+ctx.fillText('Tahun Ajaran 2025/2026',600,185);
+// Line
+ctx.beginPath();ctx.moveTo(150,210);ctx.lineTo(1050,210);ctx.strokeStyle='#2b7de9';ctx.lineWidth=2;ctx.stroke();
+// Body
+ctx.textAlign='left';ctx.font='16px sans-serif';ctx.fillStyle='#334e6b';
+ctx.fillText('Dengan ini menerangkan bahwa:',150,260);
+ctx.font='bold 28px serif';ctx.fillStyle='#1a3a5c';ctx.textAlign='center';
+ctx.fillText(name,600,320);
+ctx.font='18px sans-serif';ctx.fillStyle='#334e6b';
+ctx.fillText('NISN: '+nisn,600,360);
+ctx.fillText('Peringkat: '+rank+' dari 35',600,395);
+// Status
+ctx.font='bold 32px serif';ctx.fillStyle='#16a34a';
+ctx.fillText('✓ DINYATAKAN LULUS',600,470);
+ctx.font='16px sans-serif';ctx.fillStyle='#334e6b';
+ctx.fillText('dari SMP Negeri 200 Jakarta Tahun Ajaran 2025/2026',600,510);
+// Footer
+ctx.textAlign='right';ctx.font='16px sans-serif';
+ctx.fillText('Jakarta, 4 Mei 2026',1050,630);
+ctx.fillText('Kepala Sekolah,',1050,660);
+ctx.font='bold 16px sans-serif';ctx.fillStyle='#1a3a5c';
+ctx.fillText('Drs. H. Ahmad Sudrajat, M.Pd.',1050,720);
+ctx.font='14px sans-serif';ctx.fillStyle='#999';ctx.textAlign='center';
+ctx.fillText('Dokumen ini digenerate secara digital oleh sistem SMP Negeri 200 Jakarta',600,800);
+
+const link=document.createElement('a');
+link.download='Sertifikat_Kelulusan_'+name.replace(/[^a-zA-Z]/g,'_')+'.png';
+link.href=c.toDataURL('image/png');link.click();
+}
+
+function spawnConfetti(){
+const colors=['#2b7de9','#22c55e','#fbbf24','#f472b6','#a78bfa','#64b5f6'];
+for(let i=0;i<40;i++){
+const el=document.createElement('div');
+el.className='confetti-piece';
+el.style.left=Math.random()*100+'%';
+el.style.background=colors[Math.floor(Math.random()*colors.length)];
+el.style.borderRadius=Math.random()>.5?'50%':'2px';
+el.style.width=(Math.random()*8+6)+'px';
+el.style.height=(Math.random()*8+6)+'px';
+el.style.animationDuration=(Math.random()*2+2)+'s';
+el.style.animationDelay=(Math.random()*.5)+'s';
+document.body.appendChild(el);
+setTimeout(()=>el.remove(),5000);
+}
+}
+
+// Countdown
+function updateCountdown(){
+const now=new Date();const diff=ANNOUNCE_DATE-now;
+const cd=document.getElementById('countdown-display');
+const cs=document.getElementById('countdown-section');
+if(diff<=0){cs.innerHTML='<p class="font-display text-lg font-700" style="color:#16a34a">🎉 Pengumuman Kelulusan Telah Dibuka!</p>';return}
+const d=Math.floor(diff/864e5);const h=Math.floor(diff%864e5/36e5);const m=Math.floor(diff%36e5/6e4);const s=Math.floor(diff%6e4/1e3);
+cd.innerHTML=`<div class="countdown-box"><div class="num">${d}</div><div class="lbl">Hari</div></div>
+<div class="countdown-box"><div class="num">${String(h).padStart(2,'0')}</div><div class="lbl">Jam</div></div>
+<div class="countdown-box"><div class="num">${String(m).padStart(2,'0')}</div><div class="lbl">Menit</div></div>
+<div class="countdown-box"><div class="num">${String(s).padStart(2,'0')}</div><div class="lbl">Detik</div></div>`;
+}
+updateCountdown();setInterval(updateCountdown,1000);
+
+// Element SDK
+const defaultConfig={
+  school_name:'SMP Negeri 200 Jakarta',
+  academic_year:'2025/2026',
+  principal_name:'Drs. H. Ahmad Sudrajat, M.Pd.',
+  welcome_message:'',
+  background_color:'#e8f4fd',
+  surface_color:'#ffffff',
+  text_color:'#1a3a5c',
+  primary_color:'#2b7de9',
+  secondary_color:'#64b5f6',
+  font_family:'Playfair Display',
+  font_size:16
+};
+
+function applyConfig(cfg){
+  const c={...defaultConfig,...cfg};
+  document.documentElement.style.setProperty('--bg',c.background_color);
+  document.documentElement.style.setProperty('--surface',c.surface_color);
+  document.documentElement.style.setProperty('--text',c.text_color);
+  document.documentElement.style.setProperty('--primary',c.primary_color);
+  document.documentElement.style.setProperty('--secondary',c.secondary_color);
+
+  const title=document.getElementById('hero-title');
+  if(title)title.innerHTML=`Pengumuman Kelulusan Siswa<br>${c.school_name}<br>Tahun Ajaran ${c.academic_year}`;
+  const pn=document.getElementById('principal-name-display');
+  if(pn)pn.textContent=c.principal_name;
+
+  // font
+  document.querySelectorAll('.font-display').forEach(el=>{el.style.fontFamily=`${c.font_family}, Playfair Display, serif`});
+  const base=c.font_size||16;
+  document.querySelectorAll('h1').forEach(el=>el.style.fontSize=base*2+'px');
+  document.querySelectorAll('h2').forEach(el=>el.style.fontSize=base*1.4+'px');
+  document.querySelectorAll('p,.text-sm').forEach(el=>{if(!el.classList.contains('countdown-box'))el.style.fontSize=base*.9+'px'});
+}
+
+if(window.elementSdk){
+  window.elementSdk.init({
+    defaultConfig,
+    onConfigChange:async(cfg)=>applyConfig(cfg),
+    mapToCapabilities:(cfg)=>({
+      recolorables:[
+        {get:()=>cfg.background_color||defaultConfig.background_color,set:v=>{cfg.background_color=v;window.elementSdk.setConfig({background_color:v})}},
+        {get:()=>cfg.surface_color||defaultConfig.surface_color,set:v=>{cfg.surface_color=v;window.elementSdk.setConfig({surface_color:v})}},
+        {get:()=>cfg.text_color||defaultConfig.text_color,set:v=>{cfg.text_color=v;window.elementSdk.setConfig({text_color:v})}},
+        {get:()=>cfg.primary_color||defaultConfig.primary_color,set:v=>{cfg.primary_color=v;window.elementSdk.setConfig({primary_color:v})}},
+        {get:()=>cfg.secondary_color||defaultConfig.secondary_color,set:v=>{cfg.secondary_color=v;window.elementSdk.setConfig({secondary_color:v})}}
+      ],
+      borderables:[],
+      fontEditable:{get:()=>cfg.font_family||defaultConfig.font_family,set:v=>{cfg.font_family=v;window.elementSdk.setConfig({font_family:v})}},
+      fontSizeable:{get:()=>cfg.font_size||defaultConfig.font_size,set:v=>{cfg.font_size=v;window.elementSdk.setConfig({font_size:v})}}
+    }),
+    mapToEditPanelValues:(cfg)=>new Map([
+      ['school_name',cfg.school_name||defaultConfig.school_name],
+      ['academic_year',cfg.academic_year||defaultConfig.academic_year],
+      ['principal_name',cfg.principal_name||defaultConfig.principal_name],
+      ['welcome_message',cfg.welcome_message||defaultConfig.welcome_message]
+    ])
+  });
+}
+
+lucide.createIcons();
+</script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9fa989bb8094ce26',t:'MTc3ODU5MDExMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
